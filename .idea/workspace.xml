@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4112981-843c-4015-af3d-019e916c4c5b" name="Changes" comment="Created a new entity, DTO, mapper, repository, service and controller for the department service. Tested it with Postman.">
+    <list default="true" id="c4112981-843c-4015-af3d-019e916c4c5b" name="Changes" comment="Added a get department by code controller. Created a new entity, DTO, mapper, repository, service and controller for the employee service. Tested it with Postman.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/department-service/src/main/java/com/andymartinez1/department_service/controller/DepartmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/department-service/src/main/java/com/andymartinez1/department_service/controller/DepartmentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/department-service/src/main/java/com/andymartinez1/department_service/repository/DepartmentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/department-service/src/main/java/com/andymartinez1/department_service/repository/DepartmentRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/department-service/src/main/java/com/andymartinez1/department_service/service/DepartmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/department-service/src/main/java/com/andymartinez1/department_service/service/DepartmentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/department-service/src/main/java/com/andymartinez1/department_service/service/impl/DepartmentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/department-service/src/main/java/com/andymartinez1/department_service/service/impl/DepartmentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/employee-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee-service/src/main/java/com/andymartinez1/employee_service/EmployeeServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/andymartinez1/employee_service/EmployeeServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee-service/src/main/java/com/andymartinez1/employee_service/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/andymartinez1/employee_service/controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee-service/src/main/java/com/andymartinez1/employee_service/dto/EmployeeDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/andymartinez1/employee_service/dto/EmployeeDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee-service/src/main/java/com/andymartinez1/employee_service/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/andymartinez1/employee_service/service/EmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee-service/src/main/java/com/andymartinez1/employee_service/service/impl/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/andymartinez1/employee_service/service/impl/EmployeeServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,11 +160,20 @@
       <option name="project" value="LOCAL" />
       <updated>1745025534599</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added a get department by code controller. Created a new entity, DTO, mapper, repository, service and controller for the employee service. Tested it with Postman.">
+      <option name="closed" value="true" />
+      <created>1745112184314</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1745112184314</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created a new entity, DTO, mapper, repository, service and controller for the department service. Tested it with Postman." />
-    <option name="LAST_COMMIT_MESSAGE" value="Created a new entity, DTO, mapper, repository, service and controller for the department service. Tested it with Postman." />
+    <MESSAGE value="Added a get department by code controller. Created a new entity, DTO, mapper, repository, service and controller for the employee service. Tested it with Postman." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a get department by code controller. Created a new entity, DTO, mapper, repository, service and controller for the employee service. Tested it with Postman." />
   </component>
 </project>
