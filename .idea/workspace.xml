@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4112981-843c-4015-af3d-019e916c4c5b" name="Changes" comment="Created a get employee by id controller and required classes. Added a Postman collection for testing.">
+    <list default="true" id="c4112981-843c-4015-af3d-019e916c4c5b" name="Changes" comment="Successfully connected the microservices using an API response DTO. This allows you to assign a department to an employee see the department information when searching employee by ID.">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-Boot-MS.postman_collection.json" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Boot-MS.postman_collection.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/employee-service/src/main/java/com/andymartinez1/employee_service/EmployeeServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/andymartinez1/employee_service/EmployeeServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/employee-service/src/main/java/com/andymartinez1/employee_service/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/andymartinez1/employee_service/controller/EmployeeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/employee-service/src/main/java/com/andymartinez1/employee_service/dto/EmployeeDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/andymartinez1/employee_service/dto/EmployeeDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/employee-service/src/main/java/com/andymartinez1/employee_service/entity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/andymartinez1/employee_service/entity/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/employee-service/src/main/java/com/andymartinez1/employee_service/mapper/EmployeeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/andymartinez1/employee_service/mapper/EmployeeMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/employee-service/src/main/java/com/andymartinez1/employee_service/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/andymartinez1/employee_service/service/EmployeeService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/employee-service/src/main/java/com/andymartinez1/employee_service/service/impl/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/andymartinez1/employee_service/service/impl/EmployeeServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -136,13 +132,22 @@
       <option name="project" value="LOCAL" />
       <updated>1745239342366</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Successfully connected the microservices using an API response DTO. This allows you to assign a department to an employee see the department information when searching employee by ID.">
+      <option name="closed" value="true" />
+      <created>1745335958643</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1745335958643</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created a new entity, DTO, mapper, repository, service and controller for the department service. Tested it with Postman." />
     <MESSAGE value="Added a get department by code controller. Created a new entity, DTO, mapper, repository, service and controller for the employee service. Tested it with Postman." />
     <MESSAGE value="Created a get employee by id controller and required classes. Added a Postman collection for testing." />
-    <option name="LAST_COMMIT_MESSAGE" value="Created a get employee by id controller and required classes. Added a Postman collection for testing." />
+    <MESSAGE value="Successfully connected the microservices using an API response DTO. This allows you to assign a department to an employee see the department information when searching employee by ID." />
+    <option name="LAST_COMMIT_MESSAGE" value="Successfully connected the microservices using an API response DTO. This allows you to assign a department to an employee see the department information when searching employee by ID." />
   </component>
 </project>
