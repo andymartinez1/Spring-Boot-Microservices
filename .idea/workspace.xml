@@ -4,189 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4112981-843c-4015-af3d-019e916c4c5b" name="Changes" comment="Configured the service registry microservice.">
+    <list default="true" id="070e54ed-7a2b-4c8a-b93f-e3ff79e8ccdc" name="Changes" comment="Configured the OpenFeign client to be able to use multiple instances of the service. This is used in case a backup is needed.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/employee-service/src/main/java/com/andymartinez1/employee_service/service/APIClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/andymartinez1/employee_service/service/APIClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/employee-service/src/main/java/com/andymartinez1/employee_service/service/impl/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/andymartinez1/employee_service/service/impl/EmployeeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-registry/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-registry/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-registry/src/main/java/com/andymartinez1/service_registry/ServiceRegistryApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-registry/src/main/java/com/andymartinez1/service_registry/ServiceRegistryApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-registry/src/test/java/com/andymartinez1/service_registry/ServiceRegistryApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-registry/src/test/java/com/andymartinez1/service_registry/ServiceRegistryApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-        <option value="Interface" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;andymartinez1&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/andymartinez1/Spring-Boot-Microservices.git&quot;,
-    &quot;accountId&quot;: &quot;511d5907-dc11-4b84-aab4-18547e9eb08d&quot;
-  }
-}</component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
-  <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 6
-}</component>
-  <component name="ProjectId" id="2vvM8rtpJEr7wH67QTXRdvK4dLz" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Department Serive.executor": "Run",
-    "Application.Department Service.executor": "Run",
-    "Application.Employee Service.executor": "Run",
-    "Application.Eureka Server.executor": "Run",
-    "Maven.department-service [package].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Java/Spring-Boot-Microservices",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "git-widget-placeholder": "main"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Employee Service">
-    <configuration name="Department Service" type="Application" factoryName="Application">
-      <option name="ALTERNATIVE_JRE_PATH" value="temurin-21" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.andymartinez1.department_service.DepartmentServiceApplication" />
-      <module name="department-service" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Employee Service" type="Application" factoryName="Application">
-      <option name="ALTERNATIVE_JRE_PATH" value="temurin-21" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.andymartinez1.employee_service.EmployeeServiceApplication" />
-      <module name="employee-service" />
-      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
-        <option name="credential" />
-        <option name="region" />
-        <option name="useCurrentConnection" value="false" />
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Eureka Server" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="com.andymartinez1.service_registry.ServiceRegistryApplication" />
-      <module name="service-registry" />
-      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
-        <option name="credential" />
-        <option name="region" />
-        <option name="useCurrentConnection" value="false" />
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.Department Service" />
-      <item itemvalue="Application.Employee Service" />
-      <item itemvalue="Application.Eureka Server" />
-    </list>
-  </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="c4112981-843c-4015-af3d-019e916c4c5b" name="Changes" comment="" />
-      <created>1745020938593</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1745020938593</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Created a new entity, DTO, mapper, repository, service and controller for the department service. Tested it with Postman.">
-      <option name="closed" value="true" />
-      <created>1745025534599</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1745025534599</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Added a get department by code controller. Created a new entity, DTO, mapper, repository, service and controller for the employee service. Tested it with Postman.">
-      <option name="closed" value="true" />
-      <created>1745112184314</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1745112184314</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Created a get employee by id controller and required classes. Added a Postman collection for testing.">
-      <option name="closed" value="true" />
-      <created>1745239342366</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1745239342366</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Successfully connected the microservices using an API response DTO. This allows you to assign a department to an employee see the department information when searching employee by ID.">
-      <option name="closed" value="true" />
-      <created>1745335958643</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1745335958643</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Updated the API client to use Spring Boot OpenFeign. Configured the feign clients to communicate between microservices. Added a service registry microservice.">
-      <option name="closed" value="true" />
-      <created>1745500515865</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1745500515865</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Configured the service registry microservice.">
-      <option name="closed" value="true" />
-      <created>1745521159034</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1745521159034</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
     <servers />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created a new entity, DTO, mapper, repository, service and controller for the department service. Tested it with Postman." />
-    <MESSAGE value="Added a get department by code controller. Created a new entity, DTO, mapper, repository, service and controller for the employee service. Tested it with Postman." />
-    <MESSAGE value="Created a get employee by id controller and required classes. Added a Postman collection for testing." />
-    <MESSAGE value="Successfully connected the microservices using an API response DTO. This allows you to assign a department to an employee see the department information when searching employee by ID." />
-    <MESSAGE value="Updated the API client to use Spring Boot OpenFeign. Configured the feign clients to communicate between microservices. Added a service registry microservice." />
-    <MESSAGE value="Configured the service registry microservice." />
-    <option name="LAST_COMMIT_MESSAGE" value="Configured the service registry microservice." />
   </component>
 </project>
