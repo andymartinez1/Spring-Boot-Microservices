@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="070e54ed-7a2b-4c8a-b93f-e3ff79e8ccdc" name="Changes" comment="Configured the OpenFeign client to be able to use multiple instances of the service. This is used in case a backup is needed.">
+    <list default="true" id="070e54ed-7a2b-4c8a-b93f-e3ff79e8ccdc" name="Changes" comment="Added an API Gateway microservice.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,10 +21,83 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.API-Gateway.executor": "Run",
+    "Application.Department Service.executor": "Run",
+    "Application.Employee Service.executor": "Run",
+    "Application.Eureka Server.executor": "Run",
     "git-widget-placeholder": "main"
   }
 }]]></component>
+  <component name="RunManager" selected="Application.API-Gateway">
+    <configuration name="API-Gateway" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.andymartinez1.api_gateway.ApiGatewayApplication" />
+      <module name="api-gateway" />
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Department Service" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.andymartinez1.department_service.DepartmentServiceApplication" />
+      <module name="department-service" />
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Employee Service" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.andymartinez1.employee_service.EmployeeServiceApplication" />
+      <module name="employee-service" />
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Eureka Server" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.andymartinez1.service_registry.ServiceRegistryApplication" />
+      <module name="service-registry" />
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.API-Gateway" />
+      <item itemvalue="Application.Department Service" />
+      <item itemvalue="Application.Employee Service" />
+      <item itemvalue="Application.Eureka Server" />
+    </list>
+  </component>
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary="Added an API Gateway microservice.">
+      <option name="closed" value="true" />
+      <created>1746017190425</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1746017190425</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added an API Gateway microservice." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added an API Gateway microservice." />
   </component>
 </project>
